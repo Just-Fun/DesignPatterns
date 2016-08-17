@@ -9,5 +9,4 @@ public class Adaptee {
         System.out.println("Call Adaptee.specificRequest(" + input + ")");
         return "Hello from Adaptee!";
     }
-
 }
