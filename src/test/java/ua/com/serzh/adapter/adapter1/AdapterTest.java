@@ -24,11 +24,6 @@ public class AdapterTest {
         System.setOut(new PrintStream(out));
     }
 
-    @After
-    public void cleanUpStreams() {
-        System.setOut(null);
-    }
-
     public String getData() {
         try {
             String result = new String(out.toByteArray(), "UTF-8").replaceAll("\r\n", "\n");
