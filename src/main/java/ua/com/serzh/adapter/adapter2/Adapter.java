@@ -6,6 +6,7 @@ package ua.com.serzh.adapter.adapter2;
 public class Adapter extends Adaptee implements Target {
 
     public Object request(Object input) {
-        return super.specificRequest(input);
+//        return super.specificRequest(input);
+        return specificRequest(input);
     }
 }

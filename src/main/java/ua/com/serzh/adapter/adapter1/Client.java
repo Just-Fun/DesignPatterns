@@ -5,14 +5,17 @@ package ua.com.serzh.adapter.adapter1;
  */
 public class Client {
     public static void main(String[] args) {
-        Adaptee adaptee = new Adaptee();
+
+        /*Adaptee adaptee = new Adaptee();
 
         Target target = new Adapter(adaptee);
 
-        doit(target);
+        doIt(target);*/
+
+        doIt(new Adapter(new Adaptee()));
     }
 
-    public static void doit(Target target) {
+    public static void doIt(Target target) {
         System.out.println(target.request("Hello World!"));
     }
 }

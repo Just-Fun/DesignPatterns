@@ -13,13 +13,19 @@ public class Adapter {
         return (Target) Proxy.newProxyInstance(
                 Adapter.class.getClassLoader(),
                 new Class[] {Target.class},
-                new InvocationHandler() {
+               /* new InvocationHandler() {
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                         if (method.getName().equals("request")) {
                             return adaptee.specificRequest(args[0]);
                         }
                         throw new UnsupportedOperationException("Call non exists method: " + method);
                     }
+                });*/
+                (proxy, method, args) -> {
+                    if (method.getName().equals("request")) {
+                        return adaptee.specificRequest(args[0]);
+                    }
+                    throw new UnsupportedOperationException("Call non exists method: " + method);
                 });
     }
 }

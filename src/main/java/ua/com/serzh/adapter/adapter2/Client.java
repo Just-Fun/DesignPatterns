@@ -8,10 +8,11 @@ public class Client {
         Target target = new Adapter();
 //        Adaptee adaptee = new Adapter();
 
-        doit(target);
+        doIt(target);
+//        doIt((Target) adaptee);
     }
 
-    public static void doit(Target target) {
+    public static void doIt(Target target) {
         System.out.println(target.request("Hello World!"));
     }
 }
