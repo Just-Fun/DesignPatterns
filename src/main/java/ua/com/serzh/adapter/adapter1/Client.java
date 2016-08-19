@@ -6,13 +6,13 @@ package ua.com.serzh.adapter.adapter1;
 public class Client {
     public static void main(String[] args) {
 
-        /*Adaptee adaptee = new Adaptee();
+        Adaptee adaptee = new Adaptee();
 
         Target target = new Adapter(adaptee);
 
-        doIt(target);*/
+        doIt(target);
 
-        doIt(new Adapter(new Adaptee()));
+//        doIt(new Adapter(new Adaptee()));
     }
 
     public static void doIt(Target target) {
