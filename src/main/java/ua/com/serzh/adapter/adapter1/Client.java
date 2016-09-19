@@ -6,9 +6,7 @@ package ua.com.serzh.adapter.adapter1;
 public class Client {
     public static void main(String[] args) {
 
-        Adaptee adaptee = new Adaptee();
-
-        Target target = new Adapter(adaptee);
+        Target target = new Adapter(new Adaptee());
 
         doIt(target);
 
