@@ -1,4 +1,4 @@
-package ua.com.serzh.abstractFactory;
+package ua.com.serzh.factoryMethod;
 
 /**
  * Created by Serzh on 9/19/16.

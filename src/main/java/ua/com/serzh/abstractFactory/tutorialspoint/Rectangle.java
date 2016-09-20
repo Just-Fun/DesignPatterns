@@ -1,4 +1,4 @@
-package ua.com.serzh.factory;
+package ua.com.serzh.abstractFactory.tutorialspoint;
 
 /**
  * Created by Serzh on 9/19/16.

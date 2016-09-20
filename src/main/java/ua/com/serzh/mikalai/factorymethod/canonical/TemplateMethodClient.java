@@ -15,10 +15,15 @@ package ua.com.serzh.mikalai.factorymethod.canonical;
  */
 public class TemplateMethodClient {
     public static void main(String[] args) {
-        DocumentFactory factory = new JsonDocumentFactory();
-        Document document = factory.create("USER");
+        Document document = new JsonDocumentFactory().create("USER");
         document.addField("name", "Mikalai");
         document.addField("surname", "Alimenkou");
         System.out.println(document);
+
+        Document simpleDocument = new SimpleDocumentFactory().create("USER2");
+        simpleDocument.addField("name", "Mikalai");
+        simpleDocument.addField("surname", "Alimenkou");
+        System.out.println(simpleDocument);
+
     }
 }
