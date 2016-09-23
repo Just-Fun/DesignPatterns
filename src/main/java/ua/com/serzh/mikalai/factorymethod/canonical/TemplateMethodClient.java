@@ -16,6 +16,7 @@ package ua.com.serzh.mikalai.factorymethod.canonical;
 public class TemplateMethodClient {
     public static void main(String[] args) {
         Document document = new JsonDocumentFactory().create("USER");
+//        Document document = new JsonDocument("USER");
         document.addField("name", "Mikalai");
         document.addField("surname", "Alimenkou");
         System.out.println(document);

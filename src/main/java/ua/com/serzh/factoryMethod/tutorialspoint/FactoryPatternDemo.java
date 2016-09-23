@@ -1,4 +1,4 @@
-package ua.com.serzh.factoryMethod;
+package ua.com.serzh.factoryMethod.tutorialspoint;
 
 /**
  * Created by Serzh on 9/19/16.
