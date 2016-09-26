@@ -9,7 +9,6 @@ public class Client {
         Target target = new Adapter(new Adaptee());
 
         doIt(target);
-
 //        doIt(new Adapter(new Adaptee()));
     }
 
