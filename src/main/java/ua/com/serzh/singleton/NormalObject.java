@@ -1,4 +1,4 @@
-package ua.com.serzh.Singleton;
+package ua.com.serzh.singleton;
 
 /**
  * Created by serzh on 2/5/16.
