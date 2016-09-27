@@ -7,13 +7,13 @@ public class TestHarness {
     public static void main(String[] args) {
         NormalObject object1 = new NormalObject();
         NormalObject object3 = new NormalObject();
-        System.out.println(object1/*.getClass()/*.getSimpleName()*/);
-        System.out.println(object3/*.getClass()/*.getSimpleName()*/);
+        System.out.println(object1);
+        System.out.println(object3);
 
-        SingletonObject object = SingletonObject.getInstance();
-        System.out.println(object/*.getClass()/*.getSimpleName()*/);
-        SingletonObject object2 = SingletonObject.getInstance();
-        System.out.println(object2/*.getClass()/*.getSimpleName()*/);
+        SingletonSynchBest object = SingletonSynchBest.getInstance();
+        SingletonSynchBest object2 = SingletonSynchBest.getInstance();
+        System.out.println(object);
+        System.out.println(object2);
 
     }
 
