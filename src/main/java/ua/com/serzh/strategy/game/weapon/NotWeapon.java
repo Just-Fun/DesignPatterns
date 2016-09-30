@@ -1,4 +1,4 @@
-package ua.com.serzh.strategy.game;
+package ua.com.serzh.strategy.game.weapon;
 
 /**
  * Created by serzh on 2/5/16.

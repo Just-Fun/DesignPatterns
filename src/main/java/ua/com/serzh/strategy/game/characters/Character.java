@@ -1,10 +1,12 @@
-package ua.com.serzh.strategy.game;
+package ua.com.serzh.strategy.game.characters;
+
+import ua.com.serzh.strategy.game.walk.WalkBehavior;
+import ua.com.serzh.strategy.game.weapon.WeaponBehavior;
 
 /**
  * Created by serzh on 12/28/15.
  */
 public abstract class Character {
-
     WeaponBehavior weapon;
     WalkBehavior walkBehavior;
 
@@ -18,9 +20,9 @@ public abstract class Character {
         this.weapon = weapon;
     }
 
-    public void walk() {
+    public void move() {
         System.out.print(this.getClass().getSimpleName());
-        walkBehavior.canWalk();
+        walkBehavior.canMove();
     }
 
     public abstract void display();
