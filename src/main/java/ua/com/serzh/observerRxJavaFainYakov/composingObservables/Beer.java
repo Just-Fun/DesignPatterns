@@ -1,4 +1,4 @@
-package ua.com.serzh.rxjavaFainYakov.composingObservables;
+package ua.com.serzh.observerRxJavaFainYakov.composingObservables;
 
 public class Beer extends Drink {
 

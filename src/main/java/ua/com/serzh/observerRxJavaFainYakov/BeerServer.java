@@ -1,4 +1,4 @@
-package ua.com.serzh.rxjavaFainYakov;
+package ua.com.serzh.observerRxJavaFainYakov;
 
 import rx.Observable;
 
