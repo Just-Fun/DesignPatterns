@@ -8,7 +8,7 @@ import java.util.LinkedList;
  */
 public class ConcreteObservable implements Observable {
 
-    private Collection<Observer> observers = new LinkedList<Observer>();
+    private Collection<Observer> observers = new LinkedList<>();
 
     @Override
     public void addObserver(Observer observer) {

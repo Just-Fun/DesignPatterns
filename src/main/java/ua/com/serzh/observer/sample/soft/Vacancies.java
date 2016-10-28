@@ -34,7 +34,6 @@ public class Vacancies {
                 result.add(vacancy);                
             }
         }
-        
         return result;
     }
 
@@ -42,5 +41,5 @@ public class Vacancies {
     boolean isEmpty() {
         return list.isEmpty();
     }
-    
+
 }

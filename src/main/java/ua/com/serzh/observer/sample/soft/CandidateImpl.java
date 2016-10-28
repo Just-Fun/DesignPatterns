@@ -10,7 +10,7 @@ import java.util.Set;
  */
 public class CandidateImpl implements Candidate {
 
-    protected Set<String> technologies = new HashSet<String>();
+    protected Set<String> technologies = new HashSet<>();
     private String name;
 
     public CandidateImpl(String name, String...technologies) {
