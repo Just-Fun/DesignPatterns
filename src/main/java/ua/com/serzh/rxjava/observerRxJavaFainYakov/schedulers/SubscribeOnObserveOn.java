@@ -1,4 +1,4 @@
-package ua.com.serzh.observerRxJavaFainYakov.schedulers;
+package ua.com.serzh.rxjava.observerRxJavaFainYakov.schedulers;
 
 import rx.Observable;
 import rx.schedulers.Schedulers;

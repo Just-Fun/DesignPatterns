@@ -1,4 +1,4 @@
-package ua.com.serzh.observerRxJavaFainYakov;
+package ua.com.serzh.rxjava.observerRxJavaFainYakov;
 
 import rx.Observable;
 import rx.Subscriber;

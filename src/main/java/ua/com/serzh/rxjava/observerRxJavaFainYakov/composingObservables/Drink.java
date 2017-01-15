@@ -1,4 +1,4 @@
-package ua.com.serzh.observerRxJavaFainYakov.composingObservables;
+package ua.com.serzh.rxjava.observerRxJavaFainYakov.composingObservables;
 
 public abstract class Drink {
     public String name;

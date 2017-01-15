@@ -1,4 +1,4 @@
-package ua.com.serzh.observerRxJavaFainYakov; /**
+package ua.com.serzh.rxjava.observerRxJavaFainYakov; /**
  * Created by yfain11 on 4/19/16.
  */
 import rx.Observable;

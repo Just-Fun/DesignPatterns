@@ -1,4 +1,4 @@
-package ua.com.serzh.observerRxJavaFainYakov;
+package ua.com.serzh.rxjava.observerRxJavaFainYakov;
 
 /**
  * Created by serzh on 7/6/16.
