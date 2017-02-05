@@ -9,7 +9,6 @@ public class Person {
     private final String email;
 
     private Person(Builder builder) {
-
         this.firstname = builder.firstname;
         this.lastname = builder.lastname;
         this.email = builder.email;
@@ -26,10 +25,10 @@ public class Person {
 
 
     public static class Builder {
-
         private String firstname;
         private String lastname;
         private String email;
+
         public Builder() {
         }
 
