@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * Created by Serzh on 11/17/16.
  */
+// Need to install 'Lombok Plugin'
 @Builder
 @ToString
 @Getter
@@ -17,7 +18,7 @@ public class NutritionFactsLombok {
     private  int servingSize;
     private  int servings;
     private  int calories;
-    @Singular // create an empty list
+    @Singular // create an empty list instead of null
     private  List<Integer> fats;
     private  int sodium;
     private  int carbohydrate;
