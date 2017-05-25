@@ -25,6 +25,7 @@ public class ModernFactoryMethodClient {
         printUserDetails(factory.create("USER"));
 
         Function<String, Document> plainFactory = JsonDocument::new;
+//        Function<String, Document> plainFactory = name -> new JsonDocument(name);
         printUserDetails(plainFactory.apply("USER"));
     }
 
