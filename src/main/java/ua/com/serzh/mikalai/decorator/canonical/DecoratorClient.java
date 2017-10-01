@@ -16,6 +16,7 @@ package ua.com.serzh.mikalai.decorator.canonical;
 public class DecoratorClient {
     public static void main(String[] args) {
         DigitCounter counter = new BenchmarkingDigitCounter(new NaiveDigitCounter());
+//        DigitCounter counter = (new NaiveDigitCounter());
         int digitsCount = counter.count("fd6j78fh19kj");
         System.out.println(digitsCount + " digits found");
     }
