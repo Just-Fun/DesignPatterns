@@ -20,6 +20,11 @@ import java.util.function.Function;
  */
 public class ModernDecoratorClient {
     public static void main(String[] args) {
+
+        Function<String, String> trimmer2 = String::trim;
+        System.out.println(trimmer2.apply("        34  67"));
+
+
         DigitCounter counter = wrap(new NaiveDigitCounter());
         int digitsCount = counter.count("fd6j78fh19kj");
         System.out.println(digitsCount + " digits found");
