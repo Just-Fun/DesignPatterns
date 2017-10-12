@@ -16,7 +16,7 @@ public class TransformerContext implements TransformerState {
 
     @Override
     public void action() {
-        this.state.action();
+        state.action();
     }
    
     

@@ -5,6 +5,7 @@ import ua.com.serzh.state.timur.batyrshinov.state.FireState;
 import ua.com.serzh.state.timur.batyrshinov.state.MoveState;
 import ua.com.serzh.state.timur.batyrshinov.state.TransformerState;
 
+//https://www.youtube.com/watch?v=vIvb3lIkCZI&index=9&list=PLwwk4BHih4fh_aJET4PF-5Ok5iK_xgiRE
 public class Main {
 
     public static void main(String[] args) {

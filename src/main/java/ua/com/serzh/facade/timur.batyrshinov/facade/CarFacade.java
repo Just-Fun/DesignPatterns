@@ -1,11 +1,10 @@
 package ua.com.serzh.facade.timur.batyrshinov.facade;
 
-// фасад для работы 
-
 import ua.com.serzh.facade.timur.batyrshinov.parts.Door;
 import ua.com.serzh.facade.timur.batyrshinov.parts.Wheel;
 import ua.com.serzh.facade.timur.batyrshinov.parts.Zazhiganie;
 
+// фасад для работы
 public class CarFacade {
 
     private Door door = new Door();
