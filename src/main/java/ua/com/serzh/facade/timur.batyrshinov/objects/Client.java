@@ -1,9 +1,9 @@
-package ua.com.serzh.facade.timur_batyrshinov.objects;
+package ua.com.serzh.facade.timur.batyrshinov.objects;
 
-import ua.com.serzh.facade.timur_batyrshinov.facade.CarFacade;
-import ua.com.serzh.facade.timur_batyrshinov.parts.Door;
-import ua.com.serzh.facade.timur_batyrshinov.parts.Wheel;
-import ua.com.serzh.facade.timur_batyrshinov.parts.Zazhiganie;
+import ua.com.serzh.facade.timur.batyrshinov.facade.CarFacade;
+import ua.com.serzh.facade.timur.batyrshinov.parts.Door;
+import ua.com.serzh.facade.timur.batyrshinov.parts.Wheel;
+import ua.com.serzh.facade.timur.batyrshinov.parts.Zazhiganie;
 
 //https://www.youtube.com/watch?v=q6d2pMsDZpE&index=7&list=PLwwk4BHih4fh_aJET4PF-5Ok5iK_xgiRE
 public class Client {

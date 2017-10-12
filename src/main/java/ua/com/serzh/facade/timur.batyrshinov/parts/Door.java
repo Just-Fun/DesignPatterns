@@ -1,4 +1,4 @@
-package ua.com.serzh.facade.timur_batyrshinov.parts;
+package ua.com.serzh.facade.timur.batyrshinov.parts;
 
 public class Door{
 

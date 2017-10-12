@@ -1,10 +1,10 @@
-package ua.com.serzh.facade.timur_batyrshinov.facade;
+package ua.com.serzh.facade.timur.batyrshinov.facade;
 
 // фасад для работы 
 
-import ua.com.serzh.facade.timur_batyrshinov.parts.Door;
-import ua.com.serzh.facade.timur_batyrshinov.parts.Wheel;
-import ua.com.serzh.facade.timur_batyrshinov.parts.Zazhiganie;
+import ua.com.serzh.facade.timur.batyrshinov.parts.Door;
+import ua.com.serzh.facade.timur.batyrshinov.parts.Wheel;
+import ua.com.serzh.facade.timur.batyrshinov.parts.Zazhiganie;
 
 public class CarFacade {
 
