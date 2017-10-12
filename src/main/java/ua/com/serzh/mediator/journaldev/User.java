@@ -5,11 +5,11 @@ package ua.com.serzh.mediator.journaldev;
  */
 public abstract class User {
 
-    protected ChatMediator mediator;
+    protected ChatMediator chat;
     protected String name;
 
-    public User(ChatMediator med, String name){
-        this.mediator=med;
+    public User(ChatMediator chat, String name){
+        this.chat =chat;
         this.name=name;
     }
 

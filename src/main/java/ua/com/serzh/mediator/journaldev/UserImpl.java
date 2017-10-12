@@ -5,14 +5,14 @@ package ua.com.serzh.mediator.journaldev;
  */
 public class UserImpl extends User {
 
-    public UserImpl(ChatMediator med, String name) {
-        super(med, name);
+    public UserImpl(ChatMediator chat, String name) {
+        super(chat, name);
     }
 
     @Override
     public void send(String msg) {
         System.out.println(this.name + ": Sending Message=" + msg);
-        mediator.sendMessage(msg, this);
+        chat.sendMessage(msg, this);
     }
 
     @Override
